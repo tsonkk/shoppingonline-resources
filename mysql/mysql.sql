@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS Admin;
 
 -- Create tables
 CREATE TABLE Admin(Username VARCHAR(50) PRIMARY KEY, Password TEXT);
-INSERT INTO Admin(Username, Password) VALUES('sonkk', '123');
+INSERT INTO Admin(Username, Password) VALUES('admin', '123');
 
 CREATE TABLE Category(ID INT PRIMARY KEY AUTO_INCREMENT, Name TEXT);
 INSERT INTO Category(Name) VALUES('Smartphone');
